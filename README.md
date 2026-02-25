@@ -10,7 +10,7 @@ Open PowerShell **as an administrator**
 
 Run this comnand:
 ```powershell
-irm "https://github.com/beaglesoftware/cakeman/blob/main/tools/install.ps1?raw=true" | iex
+irm "https://github.com/beaglesoftware/cforge/blob/main/tools/install.ps1?raw=true" | iex
 ```
 
 It will ask for permission, click on Yes
@@ -20,7 +20,7 @@ Open your terminal (Example: Mac's default terminal, iTerm2, GNOME Terminal, Kon
 
 Run this command:
 ```shell
-sh -c "$(curl -fsSL https://github.com/beaglesoftware/cakeman/blob/main/tools/install.sh?raw=true)"
+sh -c "$(curl -fsSL https://github.com/beaglesoftware/cforge/blob/main/tools/install.sh?raw=true)"
 ```
 
 ## Build from source
@@ -48,5 +48,6 @@ go build main.go -o "dist/windows/$ARCH/cforge.exe "
 
 | Feature               | Supported OS/OSes | Available | It is working? |
 |-----------------------|-------------------|-----------|----------------|
-| Supports dependencies | Cross-platform     | ✅ Yes     | ❌ No          |
+| Supports dependencies | Cross-platform    | ✅ Yes     | ❌ Not recursive          |
 | Have a build system   | N/A               | ❌ No      | N/A            |
+| Install C tools       | N/A               | ❌ No      | N/A            |
