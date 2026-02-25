@@ -1,4 +1,3 @@
-![Cakeman Poster](assets/Poster.png)
 # CForge
 A no-nonsense C/C++ package manager
 
@@ -14,10 +13,6 @@ Run this comnand:
 irm "https://github.com/beaglesoftware/cakeman/blob/main/tools/install.ps1?raw=true" | iex
 ```
 
-If you're on Windows 11 24H2, you're lucky. Open a **non-elevated** PowerShell window and run this command:
-```powershell
-irm "https://github.com/beaglesoftware/cakeman/blob/main/tools/install.ps1?raw=true" | sudo iex
-```
 It will ask for permission, click on Yes
 
 ### Mac or GNU/Linux
@@ -53,5 +48,5 @@ go build main.go -o "dist/windows/$ARCH/cforge.exe "
 
 | Feature               | Supported OS/OSes | Available | It is working? |
 |-----------------------|-------------------|-----------|----------------|
-| Supports dependencies | Cross-platform     | ✅ Yes     | ✅ Yes          |
+| Supports dependencies | Cross-platform     | ✅ Yes     | ❌ No          |
 | Have a build system   | N/A               | ❌ No      | N/A            |
